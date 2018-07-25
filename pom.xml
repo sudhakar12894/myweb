@@ -24,12 +24,12 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- <dependency>
+	        <dependency>
 		  <groupId>org.sonarsource.java</groupId>
 		  <artifactId>sonar-jacoco-listeners</artifactId>
 		  <version>3.8</version>
 		  <scope>test</scope>
-		</dependency> -->
+		</dependency> 
 	</dependencies>
 	
 	<distributionManagement>
@@ -55,15 +55,15 @@
 		</plugins>
 	</build>
 	<profiles>
-	  <!-- <profile>
+	   <profile>
       <id>coverage-per-test</id>
       <build>
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            Minimal supported version is 2.4
-            <version>2.13</version>
+           
+            <version>3.5.4</version>
             <configuration>
               <properties>
                 <property>
@@ -85,7 +85,7 @@
           <scope>test</scope>
         </dependency>
       </dependencies>
-    </profile>	 -->
+    </profile>	
 	</profiles>
 	
 </project>
