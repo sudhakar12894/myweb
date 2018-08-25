@@ -38,12 +38,12 @@
 		<repository>
 			<id>nexus</id>
 			<name>Releases</name>
-			<url>http://18.212.210.179:8081/nexus/content/repositories/releases/</url>
+			<url>http://10.0.2.15:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Snapshot</name>
-			<url>http://18.212.210.179:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://10.0.2.15:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
   	
 	</distributionManagement>
