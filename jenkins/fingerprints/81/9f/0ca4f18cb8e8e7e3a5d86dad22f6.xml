@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-01-01 16:04:33.385 UTC</timestamp>
+  <md5sum>819f0ca4f18cb8e8e7e3a5d86dad22f6</md5sum>
+  <fileName>Credential id=15caa780-58cc-44db-81b5-a18f4adbaa37 name=chandu/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.18">
+      <timestamp>1546359131023</timestamp>
+      <itemFullName>first</itemFullName>
+      <timestamp0>1546358673357</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

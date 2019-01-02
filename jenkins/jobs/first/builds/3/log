@@ -1,0 +1,76 @@
+Started by user [8mha:////4ITx63771koNCMAqI+4vgEqSykPetAKH9tvWFCrpuZxUAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL95IzEvJRSADnXsubBAAAA[0mchandu
+Building in workspace /var/lib/jenkins/workspace/first
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/chandu555/myweb.git # timeout=10
+Fetching upstream changes from https://github.com/chandu555/myweb.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/chandu555/myweb.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b7434af98db3b09f1bed4ff1fdc716ed4ec86e86 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b7434af98db3b09f1bed4ff1fdc716ed4ec86e86
+Commit message: "update nexus"
+ > git rev-list --no-walk b7434af98db3b09f1bed4ff1fdc716ed4ec86e86 # timeout=10
+[first] $ /usr/local/src/apache-maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< in.javahome:myweb >--------------------------
+[INFO] Building myweb Maven Webapp 0.6.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ myweb ---
+[INFO] Deleting /var/lib/jenkins/workspace/first/target
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ myweb ---
+[8mha:////4AoR/JE7/rBZeMCgfVKAPvTb9r08zoesk9sCfX3e/X1kAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/first/src/main/resources
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ myweb ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4AoR/JE7/rBZeMCgfVKAPvTb9r08zoesk9sCfX3e/X1kAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/first/target/classes
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ myweb ---
+[8mha:////4AoR/JE7/rBZeMCgfVKAPvTb9r08zoesk9sCfX3e/X1kAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/first/src/test/resources
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ myweb ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4AoR/JE7/rBZeMCgfVKAPvTb9r08zoesk9sCfX3e/X1kAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/first/target/test-classes
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ myweb ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/first/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running in.javahome.myweb.controller.CalculatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4DUS4k5A/zvJx+yOEI6v64+8A7i6G6OySUdt5q2xWVUVAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ myweb ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [myweb] in [/var/lib/jenkins/workspace/first/target/myweb]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/first/src/main/webapp]
+[INFO] Webapp assembled in [46 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/first/target/myweb.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.781 s
+[INFO] Finished at: 2018-12-29T06:38:31Z
+[INFO] ------------------------------------------------------------------------
+SSH: Connecting from host [ip-172-31-87-105.ec2.internal]
+SSH: Connecting with configuration [ansi] ...
+SSH: Disconnecting configuration [ansi] ...
+SSH: Transferred 0 file(s)
+Finished: SUCCESS
