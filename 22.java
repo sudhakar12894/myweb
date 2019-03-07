@@ -1,1 +1,2 @@
-This is chandu for git reset
+This is chandu for git reset for the first time
+
